@@ -9,7 +9,7 @@ on:
 env:
   BOT_GITHUB_NAME: github-actions[bot]
   BOT_GITHUB_MAIL: 41898282+github-actions[bot]@users.noreply.github.com
-  REMOTE_DEV_REPOSITORY: github_user/portfolio-dev
+  REMOTE_DEV_REPOSITORY: kobasuke-workspace/portfolio-dev
   LOCAL_DEV_REPOSITORY: dev
   PAT: ${{ secrets.PERSONAL_PORTFOLIO_ACCESS_TOKEN }}
 

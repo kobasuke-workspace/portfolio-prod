@@ -20,14 +20,14 @@ env:
   # actionsで公開リポジトリにpushする際に使用するBOTの名前とメールアドレス
   BOT_GITHUB_NAME: github-actions[bot]
   BOT_GITHUB_MAIL: 41898282+github-actions[bot]@users.noreply.github.com
-  # 開発用リポジトリ (github_user は github アカウント名)
-  REMOTE_DEV_REPOSITORY: github_user/portfolio-dev
-  # 本番用リポジトリ (github_user は github アカウント名)
-  REMOTE_PROD_REPOSITORY: github_user/portfolio-prod
+  # 開発用リポジトリ (kobasuke-workspace は github アカウント名)
+  REMOTE_DEV_REPOSITORY: kobasuke-workspace/portfolio-dev
+  # 本番用リポジトリ (kobasuke-workspace は github アカウント名)
+  REMOTE_PROD_REPOSITORY: kobasuke-workspace/portfolio-prod
   # 開発用リポジトリのローカルでのディレクトリ名
-  LOCAL_DEV_REPOSITORY: dev
+  LOCAL_DEV_REPOSITORY: portfolio-dev
   # 本番用リポジトリのローカルでのディレクトリ名
-  LOCAL_PROD_REPOSITORY: prod
+  LOCAL_PROD_REPOSITORY: portfolio-prod
   # 作成したPERSONAL_PORTFOLIO_ACCESS_TOKENの格納場所
   ## Settings -> Screts and variavbles -> Actions -> Repository secrets -> New repository secret
   PAT: ${{ secrets.PERSONAL_PORTFOLIO_ACCESS_TOKEN }}
